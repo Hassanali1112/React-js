@@ -1,0 +1,26 @@
+[
+    {
+      "id" : 1,
+      "name" : "hassan",
+      "email" : "hassan@gmail.com",
+      "age" : 27,
+      "birthDate" : "new Date (1996,7,2)",
+      "gender"     :  "male"
+    },
+    {
+      "id" : 2,
+      "name" : "ali",
+      "email" : "ali@gmail.com",
+      "age" : 23,
+      "birthDate" : "new Date (2000,7,2)",
+      "gender"     :  "male"
+    }, 
+    {
+      "id" : 3,
+      "name" : "raza",
+      "email" : "raza@gmail.com",
+      "age" : 25,
+      "birthDate" : "new Date (1998,7,2)",
+      "gender"     :  "male"
+    }
+]

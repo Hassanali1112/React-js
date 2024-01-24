@@ -1,0 +1,64 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  background :  linear-gradient(rgb(21, 21, 94),rgba(13, 14, 10, 0.95));
+  display: flex;
+}
+.main{
+  background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1556004024255533056/pu/img/jfIi1cvSyysLnvbe.jpg)
+  linear-gradient(top rgba(0, 0, 255, 0.58) , rgba(0, 0, 0, 0.528));
+  background-size: cover;
+  width: 75%;
+ display: flex;
+ flex-direction: column; 
+}
+.top{
+  height: 50%;
+  position: relative;
+}
+.timerOverText{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color : white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.timer{
+  border: 2px solid white;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+}
+.bottom{
+  height: 50%;
+}
+.moneypramid{
+  width: 25%;
+  color : white;
+  
+  background :  linear-gradient(rgb(21, 21, 94),rgba(13, 14, 10, 0.95))
+}
+
+.moneyListItem{
+  display: flex;
+  padding: 5px;
+}
+.moneyListItem.active{
+  background: teal; 
+  border-radius: 12px;
+  border: 1px solid rgb(149, 223, 215);
+}
+.moneyListItemNumber{
+  width: 30%;
+}
